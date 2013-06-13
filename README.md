@@ -1,4 +1,4 @@
 milieu
 ======
 
-Flexible configuration parameter access for Python
+Flexible configuration parameter management
