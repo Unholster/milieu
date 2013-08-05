@@ -61,7 +61,6 @@ class Namespace(object):
 
 class PathedDict(dict):
     def __getitem__(self, key):
-        print "Getting", key
         val = self
         for k in key.split("."):
             val = dict.__getitem__(val, k)
